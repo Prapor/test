@@ -1,0 +1,1579 @@
+2013/03/19 16:49:18 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "DefaultController.pageDescription".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\yiinews.local\www\themes\default\views\layouts\default.php(5): CComponent->__get('pageDescription')
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#4 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(15): CController->render('index')
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(27): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2013/03/19 16:49:50 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "DefaultController.pageDescription".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\yiinews.local\www\themes\default\views\layouts\default.php(5): CComponent->__get('pageDescription')
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#4 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(15): CController->render('index')
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(27): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2013/03/28 22:18:37 [error] [php] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) (Z:\home\yiinews.local\www\framework\db\CDbConnection.php:423)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\home\yiinews.local\www\framework\db\CDbConnection.php(308): CDbConnection->setActive()
+#2 Z:\home\yiinews.local\www\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\home\yiinews.local\www\framework\base\CModule.php(103): CWebApplication->getComponent()
+#4 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(12): CWebApplication->__get()
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(26): CWebApplication->run()
+REQUEST_URI=/
+in Z:\home\yiinews.local\www\protected\controllers\DefaultController.php (12)
+2013/03/28 22:20:19 [error] [php] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) (Z:\home\yiinews.local\www\framework\db\CDbConnection.php:423)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\home\yiinews.local\www\framework\db\CDbConnection.php(308): CDbConnection->setActive()
+#2 Z:\home\yiinews.local\www\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\home\yiinews.local\www\framework\base\CModule.php(103): CWebApplication->getComponent()
+#4 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(12): CWebApplication->__get()
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(25): CWebApplication->run()
+REQUEST_URI=/
+in Z:\home\yiinews.local\www\protected\controllers\DefaultController.php (12)
+2013/03/28 22:20:42 [error] [php] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) (Z:\home\yiinews.local\www\framework\db\CDbConnection.php:423)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\home\yiinews.local\www\framework\db\CDbConnection.php(308): CDbConnection->setActive()
+#2 Z:\home\yiinews.local\www\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\home\yiinews.local\www\framework\base\CModule.php(103): CWebApplication->getComponent()
+#4 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(12): CWebApplication->__get()
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(25): CWebApplication->run()
+REQUEST_URI=/
+in Z:\home\yiinews.local\www\protected\controllers\DefaultController.php (12)
+2013/03/28 22:21:01 [error] [php] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) (Z:\home\yiinews.local\www\framework\db\CDbConnection.php:423)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\home\yiinews.local\www\framework\db\CDbConnection.php(308): CDbConnection->setActive()
+#2 Z:\home\yiinews.local\www\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\home\yiinews.local\www\framework\base\CModule.php(103): CWebApplication->getComponent()
+#4 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(12): CWebApplication->__get()
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(25): CWebApplication->run()
+REQUEST_URI=/
+in Z:\home\yiinews.local\www\protected\controllers\DefaultController.php (12)
+2013/05/04 18:44:42 [error] [php] Invalid argument supplied for foreach() (Z:\home\yiinews.local\www\themes\default\views\default\index.php:1)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(869): DefaultController->renderFile()
+#1 Z:\home\yiinews.local\www\framework\web\CController.php(782): DefaultController->renderPartial()
+#2 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(15): DefaultController->render()
+#3 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#7 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#8 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+in Z:\home\yiinews.local\www\themes\default\views\default\index.php (1)
+2013/05/04 18:44:43 [error] [php] Invalid argument supplied for foreach() (Z:\home\yiinews.local\www\themes\default\views\default\index.php:1)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(869): DefaultController->renderFile()
+#1 Z:\home\yiinews.local\www\framework\web\CController.php(782): DefaultController->renderPartial()
+#2 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(15): DefaultController->render()
+#3 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#7 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#8 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+in Z:\home\yiinews.local\www\themes\default\views\default\index.php (1)
+2013/05/04 18:47:04 [error] [php] Invalid argument supplied for foreach() (Z:\home\yiinews.local\www\themes\default\views\default\index.php:1)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(869): DefaultController->renderFile()
+#1 Z:\home\yiinews.local\www\framework\web\CController.php(782): DefaultController->renderPartial()
+#2 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(17): DefaultController->render()
+#3 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#7 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#8 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+in Z:\home\yiinews.local\www\themes\default\views\default\index.php (1)
+2013/05/04 18:48:50 [error] [php] include(Defa1ult.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\yiinews.local\www\framework\YiiBase.php:421)
+Stack trace:
+#0 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(15): spl_autoload_call()
+#1 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#2 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#5 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#6 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+in Z:\home\yiinews.local\www\protected\controllers\DefaultController.php (15)
+2013/05/04 18:49:45 [error] [php] include(paretn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\yiinews.local\www\framework\YiiBase.php:421)
+Stack trace:
+#0 Z:\home\yiinews.local\www\protected\models\News.php(8): spl_autoload_call()
+#1 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(15): model()
+#2 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#6 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#7 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+in Z:\home\yiinews.local\www\protected\models\News.php (8)
+2013/05/04 18:55:09 [error] [php] include(paretn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\yiinews.local\www\framework\YiiBase.php:421)
+Stack trace:
+#0 Z:\home\yiinews.local\www\protected\models\News.php(8): spl_autoload_call()
+#1 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(15): model()
+#2 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#6 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#7 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+in Z:\home\yiinews.local\www\protected\models\News.php (8)
+2013/05/04 18:55:28 [error] [php] include(paretn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\yiinews.local\www\framework\YiiBase.php:421)
+Stack trace:
+#0 Z:\home\yiinews.local\www\protected\models\News.php(8): spl_autoload_call()
+#1 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(15): model()
+#2 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#6 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#7 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+in Z:\home\yiinews.local\www\protected\models\News.php (8)
+2013/05/04 18:55:40 [error] [php] Invalid argument supplied for foreach() (Z:\home\yiinews.local\www\themes\default\views\default\index.php:1)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(869): DefaultController->renderFile()
+#1 Z:\home\yiinews.local\www\framework\web\CController.php(782): DefaultController->renderPartial()
+#2 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(17): DefaultController->render()
+#3 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#7 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#8 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+in Z:\home\yiinews.local\www\themes\default\views\default\index.php (1)
+2013/05/04 19:05:14 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CLinkPager.
+                                pages".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWidgetFactory.php(161): CComponent->__set('??             ...', Object(CPagination))
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(DefaultController), 'CLinkPager', Array)
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(172): CBaseController->createWidget('CLinkPager', Array)
+#3 Z:\home\yiinews.local\www\themes\default\views\default\index.php(26): CBaseController->widget('CLinkPager', Array)
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#5 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(23): CController->render('index', Array)
+#9 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#14 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#15 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#17 {main}
+REQUEST_URI=/default/index
+HTTP_REFERER=http://yiinews.local/default/index/page/2
+---
+2013/05/04 19:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "pages.css".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('pages.css')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('pages.css')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/pages.c...')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/default/pages.css
+HTTP_REFERER=http://yiinews.local/default/index
+---
+2013/05/04 19:07:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "pages.css".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('pages.css')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('pages.css')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/pages.c...')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/default/pages.css
+HTTP_REFERER=http://yiinews.local/default/index
+---
+2013/05/04 19:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "pages.css".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('pages.css')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('pages.css')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/pages.c...')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/default/pages.css
+HTTP_REFERER=http://yiinews.local/default/index
+---
+2013/05/04 19:09:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "pages.css".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('pages.css')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('pages.css')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/pages.c...')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/default/pages.css
+HTTP_REFERER=http://yiinews.local/default/index
+---
+2013/05/04 19:11:18 [error] [php] Illegal offset type (Z:\home\yiinews.local\www\framework\web\CClientScript.php:560)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\widgets\pagers\CLinkPager.php(131): CLinkPager->registerClientScript()
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(173): CLinkPager->run()
+#2 Z:\home\yiinews.local\www\themes\default\views\default\index.php(28): DefaultController->widget()
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require()
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(869): DefaultController->renderFile()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(782): DefaultController->renderPartial()
+#7 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(23): DefaultController->render()
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/default/index/page/2
+in Z:\home\yiinews.local\www\themes\default\views\default\index.php (28)
+2013/05/04 19:11:27 [error] [php] Illegal offset type (Z:\home\yiinews.local\www\framework\web\CClientScript.php:560)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\widgets\pagers\CLinkPager.php(131): CLinkPager->registerClientScript()
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(173): CLinkPager->run()
+#2 Z:\home\yiinews.local\www\themes\default\views\default\index.php(28): DefaultController->widget()
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require()
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(869): DefaultController->renderFile()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(782): DefaultController->renderPartial()
+#7 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(23): DefaultController->render()
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/default/index/page/2
+in Z:\home\yiinews.local\www\themes\default\views\default\index.php (28)
+2013/05/04 19:11:59 [error] [php] Illegal offset type (Z:\home\yiinews.local\www\framework\web\CClientScript.php:560)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\widgets\pagers\CLinkPager.php(131): CLinkPager->registerClientScript()
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(173): CLinkPager->run()
+#2 Z:\home\yiinews.local\www\themes\default\views\default\index.php(28): DefaultController->widget()
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require()
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(869): DefaultController->renderFile()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(782): DefaultController->renderPartial()
+#7 Z:\home\yiinews.local\www\protected\controllers\DefaultController.php(23): DefaultController->render()
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): DefaultController->runAction()
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/default/index/page/2
+in Z:\home\yiinews.local\www\themes\default\views\default\index.php (28)
+2013/05/04 23:07:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index1".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('index1')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index1')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index1')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/default/index1
+---
+2013/08/17 16:07:36 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ACS' at line 1. Выполнявшийся SQL-запрос: SELECT * FROM `yii_news_comment` `t` WHERE nid = 1 ORDER BY id ACS.
+2013/08/17 16:07:43 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASK' at line 1. Выполнявшийся SQL-запрос: SELECT * FROM `yii_news_comment` `t` WHERE nid = 1 ORDER BY id ASK.
+2013/08/17 16:07:48 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ACS' at line 1. Выполнявшийся SQL-запрос: SELECT * FROM `yii_news_comment` `t` WHERE nid = 1 ORDER BY id ACS.
+2013/08/17 16:07:53 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AKS' at line 1. Выполнявшийся SQL-запрос: SELECT * FROM `yii_news_comment` `t` WHERE nid = 1 ORDER BY id AKS.
+2013/08/17 16:20:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "portfolio".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('portfolio')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('portfolio')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/portfolio')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/portfolio
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/17 16:20:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiinews.local/news/portfolio
+---
+2013/08/17 16:21:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "portfolio".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('portfolio')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('portfolio')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/portfolio')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/portfolio
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/17 16:22:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "portfolio".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('portfolio')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('portfolio')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/portfolio')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/portfolio
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/18 11:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "portfolio".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('portfolio')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('portfolio')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/portfolio')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/portfolio
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/18 11:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "about_us".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('about_us')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('about_us')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/about_us')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/about_us
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/18 11:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "contact".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('contact')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('contact')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/contact')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/contact
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/18 11:44:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/18 11:44:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 11:44:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 11:44:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 11:44:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 11:45:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "portfolio".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('portfolio')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('portfolio')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/portfolio')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/portfolio
+HTTP_REFERER=http://yiinews.local/news/post?id=5
+---
+2013/08/18 11:46:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "portfolio".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('portfolio')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('portfolio')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/portfolio')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/portfolio
+HTTP_REFERER=http://yiinews.local/news/post?id=5
+---
+2013/08/18 11:46:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "portfolio".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('portfolio')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('portfolio')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/portfolio')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/portfolio
+HTTP_REFERER=http://yiinews.local/news/portfolio
+---
+2013/08/18 11:46:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "portfolio".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('portfolio')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('portfolio')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/portfolio')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/portfolio
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/18 11:47:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "portfolio".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('portfolio')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('portfolio')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/portfolio')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/portfolio
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/18 11:47:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "portfolio".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('portfolio')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('portfolio')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/portfolio')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/portfolio
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/18 11:48:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "portfolio".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('portfolio')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('portfolio')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/portfolio')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/portfolio
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/18 11:48:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "portfolio".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('portfolio')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('portfolio')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/portfolio')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/portfolio
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/18 11:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('index')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/default/index
+HTTP_REFERER=http://yiinews.local/news/portfolio
+---
+2013/08/18 11:49:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('index')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/default/index
+HTTP_REFERER=http://yiinews.local/news/portfolio
+---
+2013/08/18 11:49:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('index')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/default/index
+HTTP_REFERER=http://yiinews.local/news/portfolio
+---
+2013/08/18 11:50:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('index')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/default/index
+HTTP_REFERER=http://yiinews.local/news/portfolio
+---
+2013/08/18 11:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('index')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/default/index
+HTTP_REFERER=http://yiinews.local/news/portfolio
+---
+2013/08/18 11:50:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('index')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/default/index
+HTTP_REFERER=http://yiinews.local/news/portfolio
+---
+2013/08/18 11:50:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "portfolio/index".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('portfolio/index')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 11:51:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "portfolio.122".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('portfolio.122')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/portfolio.122
+---
+2013/08/18 11:51:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "about_us".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('about_us')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/about_us
+HTTP_REFERER=http://yiinews.local/portfolio.122
+---
+2013/08/18 11:52:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "contact".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('contact')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/contact
+HTTP_REFERER=http://yiinews.local/portfolio.122
+---
+2013/08/18 12:53:52 [error] [exception.CException] exception 'CException' with message 'Контроллер PortfolioController не может найти представление "index".' in Z:\home\yiinews.local\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 Z:\home\yiinews.local\www\protected\controllers\PortfolioController.php(7): CController->render('index')
+#2 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): PortfolioController->actionIndex()
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#7 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('portfolio/index')
+#8 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/portfolio
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 12:59:37 [error] [exception.CException] exception 'CException' with message 'В классе CWebApplication и его поведениях не найден метод или замыкание с именем "parseUrl".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:265
+Stack trace:
+#0 Z:\home\yiinews.local\www\protected\components\UserMenuTop.php(13): CComponent->__call('parseUrl', Array)
+#1 Z:\home\yiinews.local\www\protected\components\UserMenuTop.php(13): CWebApplication->parseUrl()
+#2 Z:\home\yiinews.local\www\framework\zii\widgets\CPortlet.php(94): UserMenuTop->renderContent()
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(173): CPortlet->run()
+#4 Z:\home\yiinews.local\www\themes\default\views\layouts\default.php(22): CBaseController->widget('UserMenuTop')
+#5 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#6 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#8 Z:\home\yiinews.local\www\protected\controllers\PortfolioController.php(7): CController->render('index')
+#9 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): PortfolioController->actionIndex()
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#14 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('portfolio/index')
+#15 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#17 {main}
+REQUEST_URI=/portfolio
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 13:01:47 [error] [php] Missing argument 1 for CUrlManager::parseUrl(), called in Z:\home\yiinews.local\www\protected\components\UserMenuTop.php on line 13 and defined (Z:\home\yiinews.local\www\framework\web\CUrlManager.php:357)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CBaseController.php(173): UserMenuTop->run()
+#1 Z:\home\yiinews.local\www\themes\default\views\layouts\default.php(22): PortfolioController->widget()
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require()
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): PortfolioController->renderInternal()
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(784): PortfolioController->renderFile()
+#5 Z:\home\yiinews.local\www\protected\controllers\PortfolioController.php(7): PortfolioController->render()
+#6 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): PortfolioController->actionIndex()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(286): PortfolioController->runAction()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(265): PortfolioController->runActionWithFilters()
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): PortfolioController->run()
+#11 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/portfolio
+in Z:\home\yiinews.local\www\protected\components\UserMenuTop.php (13)
+2013/08/18 13:13:31 [error] [exception.CException] exception 'CException' with message 'Контроллер About_usController не может найти представление "application.views.widgets.information".' in Z:\home\yiinews.local\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\yiinews.local\www\themes\default\views\About_us\index.php(1): CController->renderPartial('application.vie...')
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', NULL, true)
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', NULL, true)
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 Z:\home\yiinews.local\www\protected\controllers\About_usController.php(7): CController->render('index')
+#6 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): About_usController->actionIndex()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#11 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('about_us')
+#12 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#14 {main}
+REQUEST_URI=/about_us
+HTTP_REFERER=http://yiinews.local/portfolio
+---
+2013/08/18 13:13:55 [error] [exception.CException] exception 'CException' with message 'Контроллер About_usController не может найти представление "views.widgets.information".' in Z:\home\yiinews.local\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\yiinews.local\www\themes\default\views\About_us\index.php(1): CController->renderPartial('views.widgets.i...')
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', NULL, true)
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', NULL, true)
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 Z:\home\yiinews.local\www\protected\controllers\About_usController.php(7): CController->render('index')
+#6 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): About_usController->actionIndex()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#11 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('about_us')
+#12 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#14 {main}
+REQUEST_URI=/about_us
+HTTP_REFERER=http://yiinews.local/portfolio
+---
+2013/08/18 13:15:19 [error] [exception.CException] exception 'CException' with message 'Контроллер About_usController не может найти представление "views.widgets.information".' in Z:\home\yiinews.local\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\yiinews.local\www\themes\default\views\About_us\index.php(1): CController->renderPartial('views.widgets.i...')
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', NULL, true)
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', NULL, true)
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 Z:\home\yiinews.local\www\protected\controllers\About_usController.php(7): CController->render('index')
+#6 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): About_usController->actionIndex()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#11 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('about_us')
+#12 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#14 {main}
+REQUEST_URI=/about_us
+---
+2013/08/18 13:15:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiinews.local/about_us
+---
+2013/08/18 13:28:36 [error] [exception.CException] exception 'CException' with message 'Контроллер About_usController не может найти представление "views.widgets.information".' in Z:\home\yiinews.local\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\yiinews.local\www\themes\default\views\About_us\index.php(1): CController->renderPartial('views.widgets.i...')
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', NULL, true)
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', NULL, true)
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 Z:\home\yiinews.local\www\protected\controllers\About_usController.php(7): CController->render('index')
+#6 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): About_usController->actionIndex()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#11 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('about_us')
+#12 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#14 {main}
+REQUEST_URI=/about_us
+---
+2013/08/18 13:28:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiinews.local/about_us
+---
+2013/08/18 13:46:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiinews.local/news/post?id=7
+---
+2013/08/18 13:53:53 [error] [php] include(СMarkdownParser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\yiinews.local\www\framework\YiiBase.php:421)
+Stack trace:
+#0 Z:\home\yiinews.local\www\themes\default\views\news\index.php(10): spl_autoload_call()
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require()
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): NewsController->renderInternal()
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(869): NewsController->renderFile()
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(782): NewsController->renderPartial()
+#5 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(56): NewsController->render()
+#6 unknown(0): NewsController->actionPost()
+#7 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): NewsController->runAction()
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): NewsController->run()
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/news/post?id=7
+in Z:\home\yiinews.local\www\themes\default\views\news\index.php (10)
+2013/08/18 13:58:12 [error] [php] include(СMarkdownParser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\yiinews.local\www\framework\YiiBase.php:421)
+Stack trace:
+#0 Z:\home\yiinews.local\www\themes\default\views\news\index.php(10): spl_autoload_call()
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require()
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): NewsController->renderInternal()
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(869): NewsController->renderFile()
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(782): NewsController->renderPartial()
+#5 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(56): NewsController->render()
+#6 unknown(0): NewsController->actionPost()
+#7 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): NewsController->runAction()
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): NewsController->run()
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/news/post?id=7
+in Z:\home\yiinews.local\www\themes\default\views\news\index.php (10)
+2013/08/18 14:05:17 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.JMSyntaxHighlighter.JMSyntaxHighlighter" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Z:\home\yiinews.local\www\framework\YiiBase.php:316
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\YiiBase.php(196): YiiBase::import('ext.JMSyntaxHig...', true)
+#1 Z:\home\yiinews.local\www\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 Z:\home\yiinews.local\www\framework\base\CModule.php(103): CModule->getComponent('syntaxhighlight...')
+#3 Z:\home\yiinews.local\www\themes\default\views\news\index.php(10): CModule->__get('syntaxhighlight...')
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#5 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(56): CController->render('index', Array)
+#9 [internal function]: NewsController->actionPost('7')
+#10 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#11 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#12 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('post')
+#16 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/post')
+#17 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#19 {main}
+REQUEST_URI=/news/post?id=7
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 14:07:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/bf8685/styles/shTheme.css".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/bf8685/s...')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/bf8685/styles/shTheme.css
+HTTP_REFERER=http://yiinews.local/news/post?id=7
+---
+2013/08/18 15:05:06 [error] [exception.CDbException] exception 'CDbException' with message 'Отношение "commentCount" не было определено в active record классе "News".' in Z:\home\yiinews.local\www\framework\db\ar\CActiveFinder.php:211
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\ar\CActiveFinder.php(281): CActiveFinder->buildJoinTree(Object(CJoinElement), 'commentCount')
+#1 Z:\home\yiinews.local\www\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(1301): CActiveFinder->__construct(Object(News), Array)
+#3 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#4 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(20): CActiveRecord->findAll(Object(CDbCriteria))
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/index')
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#13 {main}
+REQUEST_URI=/news/index?page=2
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/18 15:05:18 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "News.commentCount".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(143): CComponent->__get('commentCount')
+#1 Z:\home\yiinews.local\www\framework\base\CModel.php(595): CActiveRecord->__get('commentCount')
+#2 Z:\home\yiinews.local\www\themes\default\views\news\index.php(4): CModel->offsetGet('commentCount')
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(23): CController->render('index', Array)
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/index')
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#16 {main}
+REQUEST_URI=/news/index?page=2
+HTTP_REFERER=http://yiinews.local/news/index
+---
+2013/08/18 15:06:06 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "News.commentCount".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(143): CComponent->__get('commentCount')
+#1 Z:\home\yiinews.local\www\framework\base\CModel.php(595): CActiveRecord->__get('commentCount')
+#2 Z:\home\yiinews.local\www\themes\default\views\news\index.php(4): CModel->offsetGet('commentCount')
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(23): CController->render('index', Array)
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/index')
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#16 {main}
+REQUEST_URI=/news/index
+---
+2013/08/18 15:06:28 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "News.commentCount".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(143): CComponent->__get('commentCount')
+#1 Z:\home\yiinews.local\www\framework\base\CModel.php(595): CActiveRecord->__get('commentCount')
+#2 Z:\home\yiinews.local\www\themes\default\views\news\index.php(4): CModel->offsetGet('commentCount')
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(23): CController->render('index', Array)
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/index')
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#16 {main}
+REQUEST_URI=/news/index
+---
+2013/08/18 15:06:36 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "News.commentCount".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(143): CComponent->__get('commentCount')
+#1 Z:\home\yiinews.local\www\framework\base\CModel.php(595): CActiveRecord->__get('commentCount')
+#2 Z:\home\yiinews.local\www\themes\default\views\news\index.php(4): CModel->offsetGet('commentCount')
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(23): CController->render('index', Array)
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/index')
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#16 {main}
+REQUEST_URI=/news/index
+---
+2013/08/18 15:07:03 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "News.commentCount".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(143): CComponent->__get('commentCount')
+#1 Z:\home\yiinews.local\www\framework\base\CModel.php(595): CActiveRecord->__get('commentCount')
+#2 Z:\home\yiinews.local\www\themes\default\views\news\index.php(4): CModel->offsetGet('commentCount')
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(23): CController->render('index', Array)
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#16 {main}
+REQUEST_URI=/
+---
+2013/08/18 15:07:17 [error] [exception.CDbException] exception 'CDbException' with message 'Отношение "commentCount" не было определено в active record классе "News".' in Z:\home\yiinews.local\www\framework\db\ar\CActiveFinder.php:211
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\ar\CActiveFinder.php(281): CActiveFinder->buildJoinTree(Object(CJoinElement), 'commentCount')
+#1 Z:\home\yiinews.local\www\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(1301): CActiveFinder->__construct(Object(News), Array)
+#3 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#4 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(20): CActiveRecord->findAll(Object(CDbCriteria))
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2013/08/18 15:11:23 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "News.commentCount".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(143): CComponent->__get('commentCount')
+#1 Z:\home\yiinews.local\www\framework\base\CModel.php(595): CActiveRecord->__get('commentCount')
+#2 Z:\home\yiinews.local\www\themes\default\views\news\index.php(4): CModel->offsetGet('commentCount')
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(57): CController->render('index', Array)
+#8 [internal function]: NewsController->actionPost('1')
+#9 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#10 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('post')
+#15 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/post')
+#16 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#18 {main}
+REQUEST_URI=/news/post?id=1
+HTTP_REFERER=http://yiinews.local/
+---
+2013/08/18 15:11:36 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "News.commentCount".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(143): CComponent->__get('commentCount')
+#1 Z:\home\yiinews.local\www\framework\base\CModel.php(595): CActiveRecord->__get('commentCount')
+#2 Z:\home\yiinews.local\www\themes\default\views\news\index.php(4): CModel->offsetGet('commentCount')
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(57): CController->render('index', Array)
+#8 [internal function]: NewsController->actionPost('1')
+#9 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#10 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('post')
+#15 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/post')
+#16 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#18 {main}
+REQUEST_URI=/news/post?id=1
+HTTP_REFERER=http://yiinews.local/
+---
+2013/08/18 15:56:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/news/12.jpg".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/12....')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/news/12.jpg
+HTTP_REFERER=http://yiinews.local/news/
+---
+2013/08/18 15:56:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/news/1.jpg".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/1.j...')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/news/1.jpg
+HTTP_REFERER=http://yiinews.local/news/
+---
+2013/08/18 15:58:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/news/1.jpg".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/1.j...')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/news/1.jpg
+HTTP_REFERER=http://yiinews.local/news/
+---
+2013/08/18 15:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/news/12.jpg".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/12....')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/news/12.jpg
+HTTP_REFERER=http://yiinews.local/news/
+---
+2013/08/18 15:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/news/12.jpg".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/12....')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/news/12.jpg
+HTTP_REFERER=http://yiinews.local/news/
+---
+2013/08/18 15:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/news/1.jpg".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/1.j...')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/news/1.jpg
+HTTP_REFERER=http://yiinews.local/news/
+---
+2013/08/18 16:00:33 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CFile._realpath".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\yiinews.local\www\protected\components\CFile.php(17): CComponent->__get('_realpath')
+#1 Z:\home\yiinews.local\www\protected\components\CFile.php(9): CFile->exists()
+#2 Z:\home\yiinews.local\www\themes\default\views\news\index.php(9): CFile->getExists('/images/news/12...')
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(22): CController->render('index', Array)
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news')
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#16 {main}
+REQUEST_URI=/news/
+---
+2013/08/18 16:04:28 [error] [exception.CException] exception 'CException' with message 'В классе CFile и его поведениях не найден метод или замыкание с именем "addLog".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:265
+Stack trace:
+#0 Z:\home\yiinews.local\www\protected\components\CFile.php(8): CComponent->__call('addLog', Array)
+#1 Z:\home\yiinews.local\www\protected\components\CFile.php(8): CFile->addLog('Filesystem obje...', 'trace')
+#2 Z:\home\yiinews.local\www\themes\default\views\news\index.php(9): CFile->getExists('/images/news/12...')
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(22): CController->render('index', Array)
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news')
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#16 {main}
+REQUEST_URI=/news/
+---
+2013/08/18 16:04:54 [error] [exception.CException] exception 'CException' with message 'В классе CFile и его поведениях не найден метод или замыкание с именем "getRealPath".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:265
+Stack trace:
+#0 Z:\home\yiinews.local\www\protected\components\CFile.php(25): CComponent->__call('getRealPath', Array)
+#1 Z:\home\yiinews.local\www\protected\components\CFile.php(25): CFile->getRealPath()
+#2 Z:\home\yiinews.local\www\protected\components\CFile.php(8): CFile->addLog('Filesystem obje...', 'trace')
+#3 Z:\home\yiinews.local\www\themes\default\views\news\index.php(9): CFile->getExists('/images/news/12...')
+#4 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#5 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(22): CController->render('index', Array)
+#9 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#14 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news')
+#15 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#17 {main}
+REQUEST_URI=/news/
+---
+2013/08/18 16:06:32 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CFile.patch".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\yiinews.local\www\protected\components\CFile.php(11): CComponent->__set('patch', '/images/news/12...')
+#1 Z:\home\yiinews.local\www\themes\default\views\news\index.php(9): CFile->getExists('/images/news/12...')
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(22): CController->render('index', Array)
+#7 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news')
+#13 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#15 {main}
+REQUEST_URI=/news/
+---
+2013/08/18 16:06:38 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CFile.patch".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\yiinews.local\www\protected\components\CFile.php(11): CComponent->__set('patch', '/images/news/12...')
+#1 Z:\home\yiinews.local\www\themes\default\views\news\index.php(9): CFile->getExists('/images/news/12...')
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(22): CController->render('index', Array)
+#7 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news')
+#13 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#15 {main}
+REQUEST_URI=/news/
+---
+2013/08/18 16:06:46 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CFile._exists".' in Z:\home\yiinews.local\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\yiinews.local\www\protected\components\CFile.php(18): CComponent->__set('_exists', false)
+#1 Z:\home\yiinews.local\www\themes\default\views\news\index.php(9): CFile->getExists('/images/news/12...')
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#3 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(22): CController->render('index', Array)
+#7 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news')
+#13 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#15 {main}
+REQUEST_URI=/news/
+---
+2013/08/18 16:13:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "contact".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('contact')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('contact')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/contact')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/contact
+HTTP_REFERER=http://yiinews.local/news/
+---
+2013/08/18 16:13:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "about_us".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('about_us')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('about_us')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/about_us')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/about_us
+HTTP_REFERER=http://yiinews.local/news/
+---
+2013/08/18 16:23:52 [error] [php] Invalid argument supplied for foreach() (Z:\home\yiinews.local\www\themes\default\views\news\index.php:10)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(869): NewsController->renderFile()
+#1 Z:\home\yiinews.local\www\framework\web\CController.php(782): NewsController->renderPartial()
+#2 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(22): NewsController->render()
+#3 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 Z:\home\yiinews.local\www\framework\web\CController.php(286): NewsController->runAction()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#7 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): NewsController->run()
+#8 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+in Z:\home\yiinews.local\www\themes\default\views\news\index.php (10)
+2013/08/18 16:23:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 16:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "tag".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('tag')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('tag')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/tag/id/ sy...')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/tag/id/+syntaxhighlighter
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 16:26:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "tag".' in Z:\home\yiinews.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(270): CController->missingAction('tag')
+#1 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('tag')
+#2 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/tag/id/yii')
+#3 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/tag/id/yii
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 16:26:42 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in Z:\home\yiinews.local\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('tag')
+#4 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/tag/id/syn...')
+#5 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#7 {main}
+REQUEST_URI=/news/tag/id/syntaxhighlighter
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 16:30:14 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'yii' in 'where clause'. Выполнявшийся SQL-запрос: SELECT * FROM `yii_news` `t` WHERE category LIKE yii.
+in Z:\home\yiinews.local\www\protected\controllers\NewsController.php (62)
+2013/08/18 16:30:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'yii' in 'where clause'. The SQL statement executed was: SELECT * FROM `yii_news` `t` WHERE category LIKE yii' in Z:\home\yiinews.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(62): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: NewsController->actionTag('yii')
+#5 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#6 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('tag')
+#11 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/tag/id/yii')
+#12 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#14 {main}
+REQUEST_URI=/news/tag/id/yii
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 16:30:51 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound. Выполнявшийся SQL-запрос: SELECT * FROM `yii_news` `t` WHERE category LIKE :yii.
+in Z:\home\yiinews.local\www\protected\controllers\NewsController.php (62)
+2013/08/18 16:30:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound. The SQL statement executed was: SELECT * FROM `yii_news` `t` WHERE category LIKE :yii' in Z:\home\yiinews.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(62): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: NewsController->actionTag('yii')
+#5 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#6 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('tag')
+#11 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/tag/id/yii')
+#12 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#14 {main}
+REQUEST_URI=/news/tag/id/yii
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 16:31:22 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. Выполнявшийся SQL-запрос: SELECT * FROM `yii_news` `t` WHERE category LIKE :yii. Bound with :id='yii%'.
+in Z:\home\yiinews.local\www\protected\controllers\NewsController.php (63)
+2013/08/18 16:31:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `yii_news` `t` WHERE category LIKE :yii. Bound with :id='yii%'' in Z:\home\yiinews.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(63): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: NewsController->actionTag('yii')
+#5 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#6 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('tag')
+#11 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/tag/id/yii')
+#12 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#14 {main}
+REQUEST_URI=/news/tag/id/yii
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 16:32:13 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. Выполнявшийся SQL-запрос: SELECT * FROM `yii_news` `t` WHERE category LIKE :yii. Bound with :id='%yii%'.
+in Z:\home\yiinews.local\www\protected\controllers\NewsController.php (63)
+2013/08/18 16:32:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `yii_news` `t` WHERE category LIKE :yii. Bound with :id='%yii%'' in Z:\home\yiinews.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\yiinews.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(63): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: NewsController->actionTag('yii')
+#5 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#6 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('tag')
+#11 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/tag/id/yii')
+#12 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#14 {main}
+REQUEST_URI=/news/tag/id/yii
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 16:34:07 [error] [php] Invalid argument supplied for foreach() (Z:\home\yiinews.local\www\themes\default\views\news\index.php:64)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(869): NewsController->renderFile()
+#1 Z:\home\yiinews.local\www\framework\web\CController.php(782): NewsController->renderPartial()
+#2 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(65): NewsController->render()
+#3 unknown(0): NewsController->actionTag()
+#4 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): NewsController->runAction()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): NewsController->run()
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/news/tag/id/yii
+in Z:\home\yiinews.local\www\themes\default\views\news\index.php (64)
+2013/08/18 16:34:09 [error] [php] Invalid argument supplied for foreach() (Z:\home\yiinews.local\www\themes\default\views\news\index.php:64)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(869): NewsController->renderFile()
+#1 Z:\home\yiinews.local\www\framework\web\CController.php(782): NewsController->renderPartial()
+#2 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(65): NewsController->render()
+#3 unknown(0): NewsController->actionTag()
+#4 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): NewsController->runAction()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): NewsController->run()
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/news/tag/id/yii
+in Z:\home\yiinews.local\www\themes\default\views\news\index.php (64)
+2013/08/18 16:34:38 [error] [php] Invalid argument supplied for foreach() (Z:\home\yiinews.local\www\themes\default\views\news\index.php:64)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(869): NewsController->renderFile()
+#1 Z:\home\yiinews.local\www\framework\web\CController.php(782): NewsController->renderPartial()
+#2 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(72): NewsController->render()
+#3 unknown(0): NewsController->actionTag()
+#4 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): NewsController->runAction()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): NewsController->run()
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/news/tag/id/yii
+in Z:\home\yiinews.local\www\themes\default\views\news\index.php (64)
+2013/08/18 16:34:59 [error] [php] Invalid argument supplied for foreach() (Z:\home\yiinews.local\www\themes\default\views\news\index.php:64)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(869): NewsController->renderFile()
+#1 Z:\home\yiinews.local\www\framework\web\CController.php(782): NewsController->renderPartial()
+#2 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(72): NewsController->render()
+#3 unknown(0): NewsController->actionTag()
+#4 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): NewsController->runAction()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): NewsController->run()
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/news/tag/id/yii
+in Z:\home\yiinews.local\www\themes\default\views\news\index.php (64)
+2013/08/18 16:36:05 [error] [php] Invalid argument supplied for foreach() (Z:\home\yiinews.local\www\themes\default\views\news\index.php:64)
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CController.php(869): NewsController->renderFile()
+#1 Z:\home\yiinews.local\www\framework\web\CController.php(782): NewsController->renderPartial()
+#2 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(72): NewsController->render()
+#3 unknown(0): NewsController->actionTag()
+#4 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 Z:\home\yiinews.local\www\framework\web\CController.php(286): NewsController->runAction()
+#8 Z:\home\yiinews.local\www\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#9 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): NewsController->run()
+#10 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 Z:\home\yiinews.local\www\index.php(24): CWebApplication->run()
+REQUEST_URI=/news/tag/id/yii
+in Z:\home\yiinews.local\www\themes\default\views\news\index.php (64)
+2013/08/18 16:36:33 [error] [exception.CException] exception 'CException' with message 'Свойство "CInlineAction.id" доступно только для чтения.' in Z:\home\yiinews.local\www\framework\base\CComponent.php:170
+Stack trace:
+#0 Z:\home\yiinews.local\www\themes\default\views\news\index.php(58): CComponent->__set('id', 'post')
+#1 Z:\home\yiinews.local\www\framework\web\CBaseController.php(126): require('Z:\home\yiinews...')
+#2 Z:\home\yiinews.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiinews...', Array, true)
+#3 Z:\home\yiinews.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiinews...', Array, true)
+#4 Z:\home\yiinews.local\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 Z:\home\yiinews.local\www\protected\controllers\NewsController.php(72): CController->render('index', Array)
+#6 [internal function]: NewsController->actionTag('yii')
+#7 Z:\home\yiinews.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#8 Z:\home\yiinews.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#9 Z:\home\yiinews.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\yiinews.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 Z:\home\yiinews.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(282): CController->run('tag')
+#13 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/tag/id/yii')
+#14 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#16 {main}
+REQUEST_URI=/news/tag/id/yii
+HTTP_REFERER=http://yiinews.local/index
+---
+2013/08/18 18:09:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiinews.local/portfolio
+---
+2013/08/21 18:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yiinews.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yiinews.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\yiinews.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiinews.local\www\index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiinews.local/index
+---
